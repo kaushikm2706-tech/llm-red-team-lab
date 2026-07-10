@@ -1,11 +1,9 @@
-import os
-from dotenv import load_dotenv
 from groq import Groq
 from vector_store import get_relevant_chunks
 from llm_judge import judge_reply
+from secrets_helper import get_secret
 
-load_dotenv()
-api_key = os.getenv("GROQ_API_KEY")
+api_key = get_secret("GROQ_API_KEY")
 client = Groq(api_key=api_key)
 
 DEFAULT_MODEL = "llama-3.3-70b-versatile"

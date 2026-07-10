@@ -1,13 +1,12 @@
 import os
 import re
-from dotenv import load_dotenv
 from groq import Groq
 from openai import OpenAI
 from vector_store import get_relevant_chunks
+from secrets_helper import get_secret
 
-load_dotenv()
-groq_key = os.getenv("GROQ_API_KEY")
-cerebras_key = os.getenv("CEREBRAS_API_KEY")
+groq_key = get_secret("GROQ_API_KEY")
+cerebras_key = get_secret("CEREBRAS_API_KEY")
 
 groq_client = Groq(api_key=groq_key)
 cerebras_client = OpenAI(api_key=cerebras_key, base_url="https://api.cerebras.ai/v1")
