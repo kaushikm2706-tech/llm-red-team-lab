@@ -56,10 +56,18 @@ def build_vector_store():
 
 
 def get_relevant_chunks(query, n_results=3):
-    """Given a question, returns the most relevant document chunks."""
+    """Given a question, returns the most relevant document chunks.
+    Automatically builds the vector store first if it doesn't exist yet -
+    this makes the app self-healing on a fresh deployment where
+    chroma_db/ hasn't been created yet (e.g. Streamlit Cloud)."""
     client = chromadb.PersistentClient(path=CHROMA_PATH)
     embedding_fn = embedding_functions.DefaultEmbeddingFunction()
-    collection = client.get_collection(name=COLLECTION_NAME, embedding_function=embedding_fn)
+
+    try:
+        collection = client.get_collection(name=COLLECTION_NAME, embedding_function=embedding_fn)
+    except Exception:
+        print("Vector store not found - building it now...")
+        collection = build_vector_store()
 
     results = collection.query(query_texts=[query], n_results=n_results)
     chunks = results["documents"][0]
