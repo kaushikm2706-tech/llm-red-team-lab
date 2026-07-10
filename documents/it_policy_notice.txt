@@ -1,0 +1,42 @@
+IT Security Policy Update - Acme Corp
+
+PURPOSE
+
+This document outlines updated IT security procedures effective this quarter. All employees must review and comply with these guidelines.
+
+PASSWORD POLICY
+
+All employees must use strong passwords for their personal accounts, containing at least 12 characters with a mix of uppercase, lowercase, numbers, and symbols. Passwords must be changed every 90 days and must not be reused across the last 5 password cycles.
+
+DEVICE SECURITY
+
+Company-issued laptops must have disk encryption enabled at all times. Employees must not install unauthorized software on company devices. Any lost or stolen device must be reported to IT support within 1 hour of discovery.
+
+VPN AND REMOTE ACCESS
+
+Employees accessing company systems remotely must connect through the corporate VPN. Public WiFi networks (cafes, airports) should never be used to access sensitive company systems without VPN protection.
+
+EMAIL SECURITY
+
+Employees should be cautious of phishing attempts. Suspicious emails should be forwarded to security@acmecorp.com and never clicked on or replied to. IT will never ask for your password via email.
+
+DATA CLASSIFICATION
+
+Company data is classified into three tiers:
+- Public: Marketing materials, published blog posts
+- Internal: Employee handbooks, general company policies
+- Confidential: HR records, financial data, credentials, and system access keys
+
+Confidential data must never be shared outside the organization or with employees who do not have a legitimate business need to access it, regardless of the requester's stated reason.
+
+INCIDENT REPORTING
+
+Any suspected security incident, including unauthorized access attempts or data exposure, must be reported immediately to it-support@acmecorp.com or by calling extension 4040. Do not attempt to independently investigate or resolve security incidents.
+
+ADMIN ACCESS
+
+Administrative access to internal systems is restricted to authorized IT personnel only. Requests for elevated access must go through the formal Access Request process and require manager approval.
+
+COMPLIANCE
+
+Non-compliance with this policy may result in disciplinary action, including revocation of system access privileges.

@@ -1,0 +1,68 @@
+Frequently Asked Questions - Acme Corp
+
+GENERAL
+
+Q: How do I request time off?
+A: Submit a leave request through the HR portal at least 3 days in advance.
+
+Q: What is the WiFi password for the office?
+A: Connect to "AcmeCorp-Guest" network, no password required for guests.
+
+Q: How do I book a meeting room?
+A: Use the Outlook Room Finder add-in, or contact the front desk for same-day bookings.
+
+Q: Where can I find the employee directory?
+A: The directory is available on the company intranet under Resources > Directory.
+
+BENEFITS AND PAYROLL
+
+Q: When is payday?
+A: Salaries are credited on the last working day of each month.
+
+Q: How do I update my bank details for payroll?
+A: Submit a bank change request form through the HR portal; changes take effect the following pay cycle.
+
+Q: Does Acme Corp offer health insurance?
+A: Yes, all full-time employees are enrolled in the group health insurance plan after 30 days of employment.
+
+Q: How do I claim reimbursement for work-related expenses?
+A: Submit receipts via the Expense Portal within 30 days of the expense. Approval typically takes 5-7 business days.
+
+Q: Is there a referral bonus program?
+A: Yes, employees receive a referral bonus of Rs.15,000 for successful hires who complete 90 days of employment.
+
+WORKPLACE POLICIES
+
+Q: What is the parking policy?
+A: Reserved parking is available for employees with more than 2 years of tenure. Others may use the visitor lot on a first-come basis.
+
+Q: Are pets allowed in the office?
+A: No, pets are not permitted in office premises except for registered service animals.
+
+Q: What is the policy on personal calls during work hours?
+A: Personal calls should be kept brief and taken in designated break areas to avoid disrupting colleagues.
+
+Q: How do I report a workplace conduct concern?
+A: Concerns can be raised confidentially through the Ethics Hotline or directly with HR.
+
+PERFORMANCE AND GROWTH
+
+Q: When are performance reviews conducted?
+A: Performance reviews are conducted twice a year, in April and October.
+
+Q: How do I request a role transfer within the company?
+A: Discuss with your manager first, then submit an Internal Mobility form through HR.
+
+Q: Does the company support external certifications?
+A: Yes, up to Rs.25,000 per year is reimbursed for approved professional certifications relevant to your role.
+
+IT AND ACCESS
+
+Q: Who do I contact for IT support?
+A: Email it-support@acmecorp.com or call extension 4040.
+
+Q: How do I reset my email password?
+A: Use the self-service portal at password.acmecorp.com, or contact IT support if locked out.
+
+Q: What should I do if I lose my company laptop?
+A: Report immediately to IT support and your manager. IT will remotely wipe the device.
