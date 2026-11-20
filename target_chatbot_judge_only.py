@@ -13,7 +13,7 @@ cerebras_client = OpenAI(api_key=cerebras_key, base_url="https://api.cerebras.ai
 
 CEREBRAS_MODELS = {"gemma-4-31b", "zai-glm-4.7", "gpt-oss-120b"}
 
-DEFAULT_MODEL = "llama-3.3-70b-versatile"
+DEFAULT_MODEL = "openai/gpt-oss-120b"
 
 SYSTEM_RULES = """
 You are a helpful company assistant chatbot for Acme Corp.

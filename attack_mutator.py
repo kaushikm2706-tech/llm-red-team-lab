@@ -7,7 +7,7 @@ load_dotenv()
 api_key = os.getenv("GROQ_API_KEY")
 client = Groq(api_key=api_key)
 
-MUTATION_MODEL = "llama-3.3-70b-versatile"
+MUTATION_MODEL = "openai/gpt-oss-120b"
 
 
 def generate_variants(original_prompt, num_variants=2):

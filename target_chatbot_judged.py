@@ -6,7 +6,7 @@ from secrets_helper import get_secret
 api_key = get_secret("GROQ_API_KEY")
 client = Groq(api_key=api_key)
 
-DEFAULT_MODEL = "llama-3.3-70b-versatile"
+DEFAULT_MODEL = "openai/gpt-oss-120b"
 
 SYSTEM_RULES = """
 You are a helpful company assistant chatbot for Acme Corp.

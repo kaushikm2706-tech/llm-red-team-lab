@@ -5,7 +5,7 @@ from secrets_helper import get_secret
 api_key = get_secret("GROQ_API_KEY")
 client = Groq(api_key=api_key)
 
-JUDGE_MODEL = "llama-3.1-8b-instant"
+JUDGE_MODEL = "openai/gpt-oss-20b"
 
 
 def strip_thinking(response_text):
