@@ -2,7 +2,6 @@ from fpdf import FPDF
 import json
 import os
 from datetime import datetime
-from fix_suggester import generate_fix_suggestion
 import time
 
 
@@ -76,7 +75,7 @@ def write_detailed_log(pdf, page_width, results, status_field="leaked", question
         pdf.ln(3)
 
 
-def generate_report():
+def generate_report(ai_suggestions=False):
     pdf = FPDF()
     pdf.add_page()
     pdf.set_left_margin(15)
@@ -146,7 +145,8 @@ def generate_report():
         pdf.ln(2)
 
     # --- AI Fix Recommendations (Single-Turn only, as before) ---
-    if single_turn:
+    if single_turn and ai_suggestions:
+        from fix_suggester import generate_fix_suggestion
         add_section_header(pdf, page_width, "Single-Turn Attacks: AI-Generated Fix Recommendations")
         pdf.set_font("Helvetica", "", 9)
         pdf.set_x(pdf.l_margin)
