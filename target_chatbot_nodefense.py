@@ -10,9 +10,9 @@ cerebras_key = get_secret("CEREBRAS_API_KEY")
 groq_client = Groq(api_key=groq_key)
 cerebras_client = OpenAI(api_key=cerebras_key, base_url="https://api.cerebras.ai/v1")
 
-CEREBRAS_MODELS = {"gemma-4-31b", "zai-glm-4.7", "gpt-oss-120b"}
+CEREBRAS_MODELS = {"gemma-4-31b", "zai-glm-4.7", "gpt-oss-120b", "llama3.1-8b"}
 
-DEFAULT_MODEL = "openai/gpt-oss-120b"
+DEFAULT_MODEL = "llama3.1-8b"
 
 SYSTEM_RULES = """
 You are a helpful company assistant chatbot for Acme Corp.
